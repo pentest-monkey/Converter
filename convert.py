@@ -15,10 +15,10 @@ def convert():
 #window
 window = ttk.Window(themename='darkly')
 window.title('Conversion')
-window.geometry('300x150')
+window.geometry('300x200')
 
 #title
-title_label = ttk.Label(master = window, text = 'Miles to Kilometers', font = 'bold')
+title_label = ttk.Label(master = window, text = 'Miles to Kilometers', font = 'bold', padding='15' )
 title_label.pack()
 
 #entry label
